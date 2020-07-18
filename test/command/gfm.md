@@ -100,7 +100,7 @@ My:thumbsup:emoji:heart:
  [])]
 ^D
 | Fruit  | Price |
-| ------ | ----: |
+|--------|------:|
 | apple  |  0.13 |
 | orange |  1.12 |
 
@@ -161,6 +161,6 @@ hi
 - [ ] foo
 - [x] bar
 ^D
-  - [ ] foo
-  - [x] bar
+-   [ ] foo
+-   [x] bar
 ```
