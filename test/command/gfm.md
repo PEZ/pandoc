@@ -69,7 +69,7 @@ My:thumbsup:emoji:heart:
 % pandoc -f gfm+smart -t native
 "hi"
 ^D
-[Para [Str "\8220hi\8221"]]
+[Para [Quoted DoubleQuote [Str "hi"]]]
 ```
 
 ```
