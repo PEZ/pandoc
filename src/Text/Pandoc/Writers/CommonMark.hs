@@ -15,12 +15,5 @@ CommonMark:  <http://commonmark.org>
 -}
 module Text.Pandoc.Writers.CommonMark (writeCommonMark) where
 
-import Text.Pandoc.Writers.Markdown (writeMarkdown)
-import Text.Pandoc.Definition
-import Text.Pandoc.Options
-import Text.Pandoc.Class.PandocMonad
-import Data.Text (Text)
+import Text.Pandoc.Writers.Markdown (writeCommonMark)
 
--- | Convert Pandoc to CommonMark.
-writeCommonMark :: PandocMonad m => WriterOptions -> Pandoc -> m Text
-writeCommonMark = writeMarkdown
